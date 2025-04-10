@@ -6,6 +6,9 @@ This tutorial shows how to deploy a simple house price prediction model.
 ```shell
 docker compose -f docker-compose.yaml up -d
 ```
+You should install the following plugins for Jenkins:
+![Jenkins plugins](./imgs/Jenkins%20plugins.png)
+
 You can find the password for `admin` at the path `/var/jenkins_home/secrets/initialAdminPassword` in the container Jenkins.
 
 ### Push the whole code to Github for automatic deployment
